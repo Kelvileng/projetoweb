@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const AreaHeader = styled.div`
-    height: 70px;
+    height: 60px;
     background-color: #4F4F4F;
 
     .container{
@@ -13,6 +13,7 @@ export const AreaHeader = styled.div`
         flex:1;
         img{
         width: 45px;
+        margin-left: 1520px;
         }
     }
     nav{
@@ -23,7 +24,7 @@ export const AreaHeader = styled.div`
         }
     li{
         list-style: none;
-        margin-left: 20px;
+        margin-left: 40px;
         
     }
     `;

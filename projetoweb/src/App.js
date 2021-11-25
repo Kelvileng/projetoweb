@@ -7,7 +7,7 @@ function App(){
   return (
     <>
       <Header/>
-      <div></div>
+      <div>aqui é o q fica no meio</div>
       <Footer/>
     </>
   );

@@ -5,7 +5,7 @@ export const AreaHeader = styled.div`
     background-color: #4F4F4F;
 
     .container{
-    padding: 5px 20px;
+    padding: 5px 15px;
     display: flex;
     align-items: center;
     }

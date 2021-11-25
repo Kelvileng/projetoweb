@@ -5,16 +5,17 @@ function Header(){
         <AreaHeader>
         <div className="container">
             <div className="logo">
-            
-                <img src="../../../imagem.png"/>
-            </div>
-        </div>
-        <nav>
             <ul>
                 <li> Inicio</li>
                 <li> Contato</li>
                 <li> Sair </li>
             </ul>
+            
+                <img src="../../../imagem.png"/>
+            </div>
+        </div>
+        <nav>
+            
         </nav>
         </AreaHeader>
     );

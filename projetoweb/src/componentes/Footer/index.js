@@ -6,7 +6,7 @@ function Footer(){
 
     return(
         <AreaFooter>
-        Kelvilen GOmes de Souza-todos os Direitos reservados.
+        Kelvilen Gomes de Souza-todos os Direitos reservados.
         </AreaFooter>
     );
 }

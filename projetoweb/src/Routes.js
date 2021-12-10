@@ -1,17 +1,28 @@
 import React from 'react';
- import { Switch ,Route } from 'react-router-dom';
-  import Inicio from './Paginas/Inicio';
-   import Config from './Paginas/Config';
+import { Switch ,Route } from 'react-router-dom';
+import Inicio from './Pages/Inicio';
+import Config from './Pages/Config';
+import Sobre from './Pages/Sobre';
     export default () => {
          return(
               <Switch>
-                   <Route path="/" >
+                   <Route exact path="/" >
+                        
                         <Inicio />
-                         primeira pag
-                          </Route>
-                           <Route path="/Config"> 
+                         
+                    </Route>
+
+                    <Route exact path="/Config"> 
+                        
                            <Config /> 
-                           </Route>
-                            </Switch>
-                             );
-                              }
+
+                    </Route>
+
+                    <Route exact path="/Sobre"> 
+                    
+                           <Sobre /> 
+
+                    </Route>
+               </Switch>
+     );
+}

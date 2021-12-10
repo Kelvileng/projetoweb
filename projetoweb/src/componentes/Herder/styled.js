@@ -6,7 +6,7 @@ export const AreaHeader = styled.div`
     color: #fff;
 
     .container{
-    padding: 5px 60px;
+    padding: 5px 100px;
     display: flex;
     align-items: center;
     }
@@ -15,7 +15,7 @@ export const AreaHeader = styled.div`
         flex:1;
         img{
         width: 52px;
-        margin-left: 6px;
+        margin-left: 7px;
         }
     }
     nav{
@@ -26,7 +26,7 @@ export const AreaHeader = styled.div`
         }
     li{
         list-style: none;
-        margin-left: 50px;
+        margin-left: 90px;
         
     }
     `;
